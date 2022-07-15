@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: inter, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+hr {
+    border: 1px solid #F5F5F5;
+}
+
+/* .navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 55px;
+    background-color: #F55A5A;
+    font-size: 14px;
+    color: #FFFFFF; 
+}
+
+/* .infoCard */
+.infoCard {
+    display: flex;
+    gap: 19px;
+    max-height: 168px;
+    max-width: 471px;
+    font-size: 10px;
+    color: #2B283A;
+    margin-bottom: 21px;
+}
+
+.infoCard--img {
+    border-radius: 5px;
+    max-width: 128px;
+    max-height: 168px;
+    object-fit: cover;
+}
+
+.infoCard--ping {
+    width: 7px;
+    height: 9px;
+}
+
+
+/* .infoCard--location */
+.infoCard--location > span {
+    letter-spacing: 0.17em;
+    margin-right: 12px;
+    margin-left: 4px;
+}
+
+.infoCard--location > a {
+    color: #918E9B;
+}
+
+/* .infoCard--title */
+.infoCard--title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
